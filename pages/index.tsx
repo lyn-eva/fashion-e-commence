@@ -1,11 +1,11 @@
 import type { NextPage } from 'next';
-import MainHeader from '../components/MainHeader';
+import HeroSection from '../components/HeroSection';
 
 const Home: NextPage = () => {
   return (
-    <div>
-      <MainHeader />
-    </div>
+    <>
+      <HeroSection />
+    </>
   );
 };
 

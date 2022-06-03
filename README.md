@@ -31,3 +31,5 @@ Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&ut
 
 ### progress
 - 6/2/2022: 19:50 --> 21:30
+- 6/3/2022: 21:15 --> 23:00
+📦
