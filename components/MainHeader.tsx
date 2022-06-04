@@ -4,8 +4,8 @@ const menu = ['HOME', 'OUR PRODUCTS', 'ABOUT', 'CONTACT', 'BLOG', 'STYLEGUIDE', 
 
 const MainHeader = () => {
   return (
-    <header className='shadow-[0_2px_#00000026] relative'>
-      <div className='flex-x ctr-x py-5'>
+    <header className='shadow-[0_2px_#00000026] sticky top-0 z-10 bg-white w-full'>
+      <div className='flex-x px-7 py-5 relative'>
         <p className='font-bold text-xl'>FLOW</p>
         <div className='flex-x gap-5'>
           <button className='flex-x'>
