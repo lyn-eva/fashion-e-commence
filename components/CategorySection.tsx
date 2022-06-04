@@ -13,7 +13,7 @@ export default function CategorySection() {
     <section className='px-6 mt-20'>
       <ul>
         {items.map(({ bg, title }) => (
-          <li className={`${bg} h-[38rem] flex items-end bg-center bg-cover mb-7 shadow-md`}>
+          <li className={`${bg} bg-no-repeat h-[38rem] flex items-end bg-center bg-cover mb-7 shadow-md`}>
             <div className='bg-white m-6 grow p-8 pb-7'>
               <h3 className='text-3xl leading-5'>{title}</h3>
               <button className='bg-transparant mt-6 text-gray-700 hover:text-black text-[13px] font-semibold flex-x group gap-6'>
