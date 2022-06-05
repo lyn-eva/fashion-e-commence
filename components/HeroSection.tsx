@@ -3,7 +3,7 @@ import { Icon } from '@iconify/react';
 
 const HeroSection = () => {
   return (
-    <section className='mt-[2px] mb-10'>
+    <section className='mt-[2px] bg-white'>
       <div>
         <Image className='block' src='/assets/hero-bg.jpg' width={3385} height={3874} />
         <div className='flex-x bg-zinc-900 py-5 px-6 text-lg -mt-2'>

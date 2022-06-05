@@ -20,7 +20,7 @@ const products = [
 
 export default function ProductSection() {
   return (
-    <section className='mt-20 mb-4 text-center px-6'>
+    <section className='pt-28 text-center px-6 bg-white'>
       <span className='text-sm font-semibold text-gray-500'>SHOP CLOTHING</span>
       <h2 className='text-4xl mt-4'>Explore our latest pieces</h2>
       <ul className='mt-16'>
