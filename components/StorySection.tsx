@@ -5,7 +5,7 @@ export default function StorySection() {
     <section>
       <div className='fixed bg-cover bg-center h-screen -z-40 w-screen top-0 right-0 bg-accessories'></div>
       <div className='h-24 bg-white'></div>
-      <div className='h-40'></div>
+      <div className='h-48'></div>
       <div className='bg-white px-6 pt-24'>
         <h2 className='text-3xl'>Meet the Bay Area</h2>
         <p className='mt-2 text-lg text-gray-600 mb-14'>

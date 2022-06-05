@@ -1,4 +1,5 @@
 import type { NextPage } from 'next';
+import ArticleSection from '../components/ArticleSection';
 import CategorySection from '../components/CategorySection';
 import HeroSection from '../components/HeroSection';
 import ProductSection from '../components/ProductSection';
@@ -11,6 +12,7 @@ const Home: NextPage = () => {
       <CategorySection />
       <ProductSection />
       <StorySection />
+      <ArticleSection />
     </>
   );
 };

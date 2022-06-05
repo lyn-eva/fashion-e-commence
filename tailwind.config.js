@@ -8,6 +8,7 @@ module.exports = {
         men: "url('/assets/men.jpg')",
         women: "url('/assets/women.jpg')",
         youth: "url('/assets/youth.jpg')",
+        couple: "url('/assets/couple.jpg')",
         'product-1': "url('/assets/product-1.jpg')",
         'product-2': "url('/assets/product-2.jpg')",
         'product-3': "url('/assets/product-3.jpg')",
