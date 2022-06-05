@@ -1,5 +1,4 @@
 import { Icon } from '@iconify/react';
-import ExploreBtn from './ExploreBtn';
 
 const items = [
   { bg: 'bg-accessories', title: 'Accessories' },
