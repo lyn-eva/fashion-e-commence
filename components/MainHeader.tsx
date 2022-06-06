@@ -1,6 +1,6 @@
 import { Icon } from '@iconify/react';
 
-const menu = ['HOME', 'OUR PRODUCTS', 'ABOUT', 'CONTACT', 'BLOG', 'STYLEGUIDE', 'LICENSE'];
+const menu = ['HOME', 'CATEGORY', 'OUR PRODUCTS', 'ABOUT', 'BLOG', 'NEWSLETTER'];
 
 const MainHeader = () => {
   return (
