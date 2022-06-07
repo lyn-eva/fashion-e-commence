@@ -35,4 +35,4 @@ Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&ut
 - 6/4/2022: 14:20 --> 15:20, 20:40 --> 22:00
 - 6/5/2022: 14:40 --> 16:00, 20:30 --> 21:30
 - 6/6/2022: 12:40 --> 1:20
-🚀📦
+🚀📦⚙️
