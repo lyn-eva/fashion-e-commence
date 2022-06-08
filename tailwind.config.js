@@ -3,6 +3,7 @@ module.exports = {
   theme: {
     extend: {
       colors: { 'green-tea': '#435c50', 'green-tea-dense': '#2a4236' },
+      width: {'9/10': '90%'},
       backgroundImage: {
         accessories: "url('/assets/accessories.jpg')",
         men: "url('/assets/men.jpg')",

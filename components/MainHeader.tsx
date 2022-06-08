@@ -16,7 +16,7 @@ const MainHeader = () => {
             <button className='block lg:hidden'>
               <Icon className='text-3xl' icon='ci:menu-alt-05' hFlip={true} />
             </button>
-            <ul className='absolute lg:static w-full flex lg:py-0 flex-col lg:flex-row left-0 lg:w-auto top-[90%] py-3 bg-white -translate-x-full lg:translate-x-0 group-focus-within:translate-x-0 duration-300 z-10 lg:z-auto h-[calc(100vh-60px)] lg:h-auto'>
+            <ul className='absolute lg:static w-full flex lg:py-0 flex-col lg:flex-row left-0 lg:w-auto top-[90%] py-3 bg-white -translate-x-full lg:translate-x-0 group-focus-within:translate-x-0 duration-300 z-10 h-[calc(100vh-60px)] lg:h-auto'>
               {menu?.map((item) => (
                 <li className='py-3 px-[5%] lg:px-3 text-xl lg:text-lg lg:tracking-wide after:contents-[""] after:bg-gray-200 relative after:w-full after:h-full after:absolute after:left-0 after:top-0 after:-z-10 after:scale-x-0 hover:after:scale-x-100 after:origin-left after:duration-300 cursor-pointer'>
                   {item}
