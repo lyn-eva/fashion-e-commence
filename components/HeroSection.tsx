@@ -25,10 +25,10 @@ const HeroSection = () => {
         </div>
         <div className='lg:pl-[calc(50vw-40rem)]'>
           <div className='lg:flex cursor-pointer hover:bg-black bg-zinc-900 p-7 lg:p-8'>
-            <div className='relative h-44 w-[12rem]'>
+            <div className='relative h-44 lg:w-[12rem]'>
               <Image className='object-cover' src='/assets/elementary-kid.png' layout='fill' />
             </div>
-            <div className='lg:mx-auto w-6/12'>
+            <div className='lg:mx-auto lg:w-6/12'>
               <h2 className='text-white text-xl mt-5'>Meet the Bay Area</h2>
               <p className='text-gray-400 mt-3'>
                 Grab a tee and surf into the sunset our summer collection has never been so full of

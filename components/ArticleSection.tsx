@@ -11,10 +11,10 @@ const articles = [
 
 export default function ArticleSection() {
   return (
-    <section className='bg-white pt-20 pb-10 px-6'>
+    <section className='bg-white pt-20 lg:pt-52 pb-10 px-6 lg:px-[calc(50vw-40rem)]'>
       <span className='text-sm font-semibold text-gray-500'>OUR ARTICLES</span>
-      <h4 className='text-3xl mt-3 leading-10'>Welcome to the surf club. Discover the best way to express yourself.</h4>
-      <ul className='mt-12'>
+      <h4 className='text-3xl mt-3 leading-10 lg:w-[40%]'>Welcome to the surf club. Discover the best way to express yourself.</h4>
+      <ul className='mt-12 lg:grid lg:grid-cols-3 lg:gap-6'>
         {articles.map(({ heading, bg }) => (
           <li className='h-[30rem] relative mt-8'>
             <div className={`${bg} brightness-50 h-full bg-cover bg-center bg-no-repeat`}></div>
